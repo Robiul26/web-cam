@@ -4,7 +4,7 @@ let camera = navigator.mediaDevices.getUserMedia;
 if (camera) {
     navigator.mediaDevices.getUserMedia({
         video: true,
-        audio: true
+        // audio: true
     }).then(function (streamLive) {
         camId.srcObject = streamLive;
     }).catch(function (error) {
