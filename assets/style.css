@@ -9,7 +9,7 @@
     justify-content: center;
     gap: 20px;
     padding: 0 5%;
-    height: 100vh;
+    height: auto;
 }
 
 .camera-section {
@@ -21,16 +21,23 @@
     justify-content: center;
     background-color: black;
     border-radius: 10px;
-    padding-bottom: 20px;
+    position: relative;
+}
+#captureId {
+    position: absolute;
+    bottom: 22px;
 }
 
 .camera-section #captureId {
     border: none;
     outline: none;
     background-color: white;
-    color: black;
-    padding: 8px 12px;
-    border-radius: 5px;
+    border: 1px solid gray;
+    opacity: .5;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
 }
 
 .camera-section video {
@@ -45,9 +52,8 @@
     text-align: center;
     background-color: black;
     border-radius: 10px;
-    padding-bottom: 20px;
-
 }
+
 
 .capture-section canvas {
     padding: 20px 0;
