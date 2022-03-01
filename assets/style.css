@@ -72,12 +72,12 @@
 
     .camera-section video {
         width: 100%;
-        height: 260px;
+        /* height: 260px; */
     }
 
     .capture-section canvas {
-        width: 260px;
-        height: 210px;
+        width: 100%;
+        /* height: 210px; */
     }
 
 }
